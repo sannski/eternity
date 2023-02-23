@@ -21,7 +21,7 @@ params:
     - icon: 'far fa-envelope fa-lg'
       url: 'mailto:eternity@bora.sh'
       landing: true
-  # homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
+  homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
   specialPages:
     - work
     - archive
