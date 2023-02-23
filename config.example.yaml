@@ -1,4 +1,4 @@
-baseURL: https://eternity.bora.sh # todo: change site url.
+baseURL: https://cames-engineering.github.io/ # todo: change site url.
 title: Eternity # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
@@ -25,7 +25,7 @@ params:
   specialPages:
     - work
     - archive
-  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableWelcomePageBackground: false # disables the background image on the homepage
   disableRadius: false
@@ -45,8 +45,8 @@ permalinks:
   work: ":filename/"
 
 # todo: uncomment menu.main array after you create contents.
-# menu:
-#   main:
-#     - name: work
-#       url: /work/
-#       weight: 1
+ menu:
+   main:
+     - name: work
+       url: /work/
+       weight: 1
